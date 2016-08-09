@@ -1,0 +1,157 @@
+﻿html { 
+  background: url(../Images/Leadership_Assets/Leadership_Home.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+* { margin: 0; padding: 0; font-family: Helvetica;
+}
+
+/*
+    Testimonials Donor Form
+*/
+
+.LiLink {
+  color: black; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+
+div.FormBorder-Testimonials {
+    position: relative;
+    width: 1080px;
+    height: 500px;
+    padding: 100px 0px 0px 420px;
+}
+
+#FormFade-Testimonials {
+  animation: fadein .6s;
+}
+
+@keyframes fadein {
+  from { opacity: 0}
+  to   { opacity: 1}
+}
+
+nav.SearchNav-Testimonials {
+    background-color: transparent;
+    float: left;
+    width: 225px;
+    height: 565px;
+    margin: 0;
+    overflow: hidden;
+}
+
+#SearchListDB-Testimonials {
+    max-height: 500px;
+}
+
+/*Search Box Div positioning (Searchbox Positioning)*/
+.DonorSearch-Testimonials {
+    padding: 10px 25px 19px 13px;
+}
+/*Search Box Size & Traits*/
+#SearchBox-Testimonials {
+    width: 100%;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    border:solid 1px black;
+    padding:5px;
+    font-size: 18px;
+}
+
+div.DonorList-Testimonials {
+    padding: 0px 10px 0px 10px;
+}
+
+ul.grow {
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    border:solid 1px black;
+    background: white;
+}
+
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+
+/* Change background color of <li> rows on hover */
+ul.grow li:hover {background-color: darkgray;}
+
+/* Create an active/current <li> row */
+ul.grow li:focus, .active {background-color: darkgray;}
+
+/*
+    Testimonials Menu
+*/
+.footer-Testimonials {
+    height:50px;
+    position: fixed;
+    bottom:170px;
+    width: 100%;
+}
+
+.FooterTab-Testimonials {
+    margin-left: 785px;
+    width: 1080px;
+    height: 210px;
+}
+
+div.menubar {
+    width: 180px; height: 210px;
+    float: left;
+    transition:height .4s;
+}
+div.one {
+    background-color:LightSteelBlue;
+}
+div.two {
+    background-color:lightblue;
+}
+div.three {
+    background-color:darkgray;
+}
+div.four {
+    background-color:tan;
+}
+div.five {
+    background-color:Silver;
+}
+div.six {
+    background-color:darkseagreen;
+}
+div.seven {
+    background-color: palevioletred;
+}
+
+img.icon {
+    display: block;
+    width: 40px;
+    margin: 40px auto;
+    padding: 20px;
+    background: rgba(255,255,255,.3);
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 30px rgba(255, 255, 255, 0);
+    transition:box-shadow .4s;
+
+}
+p.label {
+    font-size: 1.1em;
+    color: black;
+    text-align: center;
+    opacity: .6;
+    padding-top:10px;
+    position:relative;
+    transition: padding-top .4s;
+}
+div.menubar:hover {
+    height: 230px;
+}
+div.menubar:hover p.label {
+    padding-top: 30px;opacity: 1;
+}
+div.menubar:hover img.icon {
+    box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, .7);
+}

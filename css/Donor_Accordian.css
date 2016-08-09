@@ -3,21 +3,22 @@
 }
 
 #accordion {
-    width: 1080px;
+    width: 855px;
     float: left;
-    margin-left: 380px;
-    margin-top: 200px;
-    height: 500px;
-    position: fixed;
+    height: 600px;
 }
 
-    #accordion div {
-    height: 300px;
-    }
+#accordion div {
+height: 430px;
+}
+
+.accordion-Testimonials div{
+    height: 490px !important;
+}
 
 #tabs {
     /*width: 600px;*/
-    min-height: 400px;
+    min-height: 600px;
     /*float: left;*/
 }
 

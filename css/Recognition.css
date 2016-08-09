@@ -9,6 +9,11 @@
 * { margin: 0; padding: 0; font-family: Helvetica;
 }
 
+.LiLink {
+  color: black; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+
 table {
     margin-right: 610px;
 }
@@ -16,6 +21,17 @@ table {
 td {
     font-size: 25px;
 }
+
+    td.ScholarTd {
+        font-size: 25px;
+        text-align: center;
+        padding: 5px;
+    }
+    td.ScholarTd2 {
+        font-size: 25px;
+        text-align: center;
+        width: 40%
+    }
 
     td.FounderName {
         padding-right: 300px;
@@ -30,27 +46,27 @@ td {
         font-size: 35px;
     }
     td.PrimaryTdCSS {
-        padding: 0px 34.5px;
+        padding: 0px 100px;
         text-align: center;
         font-size: 35px;
     }
     td.RoundtableTdCSS {
-        padding: 0px 88px;
+        padding: 0px 100px;
         text-align: center;
         font-size: 35px;
     }
     td.SecondaryTdCSS {
-        padding: 0px 88px;
+        padding: 0px 100px;
         text-align: center;
         font-size: 35px;
     }
     td.CenturyTdCSS {
-        padding: 0px 85.5px;
+        padding: 0px 100px;
         text-align: center;
         font-size: 35px;
     }
     td.OtherDonorTdCSS {
-        padding: 0px 85.5px;
+        padding: 0px 100px;
         text-align: center;
         font-size: 35px;
     }
@@ -62,7 +78,7 @@ ul.tab {
     padding: 0;
     overflow: hidden;
     background-color: #f1f1f1;
-    width: 70.4%;
+    width: 71.4%;
 }
 
 ul.subtab {
@@ -71,7 +87,7 @@ ul.subtab {
     padding: 0;
     overflow: hidden;
     background-color:  #ccc;
-    width: 70.4%;
+    width: 71.4%;
 }
 
 /* Float the list items side by side */
@@ -138,22 +154,80 @@ ul.subtab li a:focus, .active {background-color: #f1f1f1;}
 }
 
 footer {
-    margin-left: 305px;
+    margin: 100px 0px 0px 240px;
     width: 1080px;
     height: 210px;
 }
 
+div.FormBorder {
+    margin: 80px 393px;
+    width: 1080px;
+    height: 500px;
+}
+
+nav.SearchNav {
+    background-color:yellow;
+    float: left;
+    width: 225px;
+    height: 500px;
+    margin: 0;
+    overflow: hidden;
+}
+
+/*Search Box Div positioning (Searchbox Positioning)*/
+.DonorSearch {
+    padding: 19px 25px 19px 13px;
+}
+/*Search Box Size & Traits*/
+#SearchBox {
+    width: 100%;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    border:solid 1px black;
+    padding:5px;
+    font-size: 18px;
+}
+
+div.DonorList {
+    padding: 0px 10px 0px 10px;
+}
+
+ul.grow {
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    border:solid 1px black;
+    max-height: 420px;
+    background: white;
+}
+
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+
+/* Change background color of <li> rows on hover */
+ul.grow li:hover {background-color: darkgray;}
+
+/* Create an active/current <li> row */
+ul.grow li:focus, .active {background-color: darkgray;}
+
+div.ContentDiv {
+    background-color:blue;
+    height: 500px;
+    overflow: hidden;
+}
+
 div.template {
-    margin-right: 453px;
+    margin-right: 428px;
     height: 610px;
     overflow-y: scroll;
 }
 
 div.leaderdiv {
     float:none;
-    height: 400px;
+    height: 480px;
     width: auto;
-    padding-left: 390px;
+    padding-left: 420px;
     margin-top: 60px;
 }
 
@@ -182,6 +256,9 @@ div.six {
 }
 div.seven {
     background-color: palevioletred;
+}
+div.eight {
+    background-color: lightcoral
 }
 
 img.icon {
